@@ -3,20 +3,62 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50px;
+  padding: 0;
+  margin: 0;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 100px;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.App-first-section {
+  width: 100vw;
+  background-color: #282c34;
+  height: calc(100vh - 100px);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.App-first-section h1{
+  max-width: 450px;
+  margin: 0;
+  color: white;
+  font-size: 5em;
+  text-align: left;
+  padding-left: 100px;
+  line-height: 1;
+}
+
+.App-first-section p {
+  max-width: 300px;
+  font-size: 1.5em;
+  font-weight: 100;
+  color: white;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.App-first-section button {
+  width: 200px;
+  height: 70px;
+  border-radius: 5px;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 20px;
 }
